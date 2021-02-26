@@ -30,9 +30,11 @@ body {
 }
 
 .logo-link {
-  font-weight: 700;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: bold;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 31px;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
@@ -42,6 +44,7 @@ body {
 /* ============= HEADER ============= */
 
 .logo-dark {
+  font-family: var(--secondary-font);
   color: #000000;
 }
 
@@ -176,6 +179,7 @@ body {
 /* ============= FOOTER ============= */
 
 .logo-white {
+  font-family: var(--secondary-font);
   /* color: #FFFFFF; */
 }
 
@@ -189,7 +193,11 @@ body {
 
 .contact-link-footer {
   text-decoration: none;
-  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6); */
 }
 
 /* ============= END FOOTER ============= */
