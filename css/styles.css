@@ -3,6 +3,12 @@
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
   --background-accent: #2f303a;
+  --title-color: #212121;
+  --logo-decoration: #000000;
+  --text-description: #757575;
+  --white-accent: #ffffff;
+  --background-masters: #f5f4fa;
+  --footer-link: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: var(--main-font);
@@ -27,13 +33,12 @@ body {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .logo-link {
   font-family: var(--secondary-font);
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -50,7 +55,7 @@ body {
 
 .logo-dark {
   font-family: var(--secondary-font);
-  color: #000000;
+  color: var(--logo-decoration);
 }
 
 .navigation-link {
@@ -59,7 +64,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--title-color);
 }
 
 .navigation-link:hover,
@@ -69,7 +74,7 @@ body {
 
 .contact-link-header {
   text-decoration: none;
-  color: #757575;
+  color: var(--text-description);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -93,7 +98,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-accent);
 }
 
 .modal-btn {
@@ -103,16 +108,13 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--white-accent);
 }
 
 /* ============= END HERO ============= */
 
 /* ============= ADVANTAGE ============= */
-.advantages .gallery {
-  background-color: #e5e5e5;
-}
 
 .advantages-title {
   font-weight: 700;
@@ -120,14 +122,14 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-color);
 }
 .advantages-list-description {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-description);
 }
 
 /* ============= END ADVANTAGE ============= */
@@ -135,7 +137,7 @@ body {
 /* ============= SELECTION MASTERS ============= */
 
 .masters {
-  background-color: #f5f4fa;
+  background-color: var(--background-masters);
 }
 
 .masters-list-title {
@@ -143,15 +145,15 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .masters-list-position {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-description);
 }
 
 /* ============= END SELECTION MASTERS ============= */
@@ -165,22 +167,22 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
-  background: #f5f4fa;
+  background: var(--background-masters);
   border-radius: 4px;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .btn-selection:hover,
 .btn-selection:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-accent);
 }
 .gallery-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .gallery-description {
@@ -188,27 +190,20 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-description);
 }
 
 /* ============= BODY ============= */
 
 /* ============= FOOTER ============= */
+
 .footer {
   background-color: var(--background-accent);
 }
 
 .logo-white {
   font-family: var(--secondary-font);
-  color: #ffffff;
-}
-
-.location {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-accent);
 }
 
 .contact-link-footer {
@@ -217,7 +212,15 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-link);
+}
+
+.location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-accent);
 }
 
 /* ============= END FOOTER ============= */
